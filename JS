@@ -1,0 +1,53 @@
+$(document).ready(function(){
+    $("#refresh").click(function(){
+        location.reload(true);
+    });
+});
+
+$(document).ready(function(){
+    $("#btFM").click(function(){
+        $("#imgFM").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#btBB").click(function(){
+        $("#imgBB").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#bt68").click(function(){
+        $("#img68").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#bt100").click(function(){
+        $("#img100").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#btJA").click(function(){
+        $("#imgJA").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#btEd").click(function(){
+        $("#imgEd").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#btBBR").click(function(){
+        $("#imgBBR").toggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#btTB").click(function(){
+        $("#imgTB").toggle(1000);
+    });
+});
